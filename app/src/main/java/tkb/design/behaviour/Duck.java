@@ -8,9 +8,7 @@ import tkb.design.behaviour.behaviour.QuackableBehaviour;
  */
 
 public abstract class Duck {
-//    public void quack(){
-//        System.out.print("quack");
-//    }
+
     private FlyableBehaviour flyableBehaviour;
     private QuackableBehaviour quackableBehaviour;
     public void swim(){
@@ -23,10 +21,7 @@ public abstract class Duck {
     public void performQuack(){
         quackableBehaviour.quack();
     }
-//    public void fly(){
-//        System.out.print("flying");
-//
-//    }
+
     public void setFlyableBehaviour(FlyableBehaviour flyableBehaviour){
         this.flyableBehaviour = flyableBehaviour;
     }
